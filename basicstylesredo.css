@@ -1,0 +1,182 @@
+@charset "utf-8";
+@font-face{
+    font-family: 'Josefin Sans';
+    src: url('JosefinSans-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Josefin Sans Bold';
+    src: url('JosefinSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Limelight';
+    src: url('Limelight-Regular.ttf') format('truetype');
+}
+
+/* 
+    Easy & Eco-friendly
+    Author: Kyra Sabol
+    Date created: May 31, 2021
+
+    Filename: basicstylesredo.css
+        
+    Color set: 
+        Beige: rgb(201,181,144)
+        Clay brown: rgb(136,81,50)
+        White: rgb(252,251,249)
+        Dark green: rgb(78,113,48)
+        Light green: rgb(149,178,80)
+        
+*/
+
+/* HTML and Body */
+html{
+    background: rgb(61,43,31);
+}
+
+body {
+    background: rgb(252,251,249) ;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+body a {
+    color: rgb(149,178,80);
+    text-decoration: none;
+}
+
+body a:hover {
+    text-decoration: underline;
+}
+
+
+/* Header */
+header > h1 {
+    font-family: 'Limelight';
+    text-align: center;
+    text-shadow: black 5px 5px 5px;
+    color: rgb(252,251,249);
+}
+
+header {
+    color: rgba(252,251,249,255);
+    background-image: url(tomatoes2.jpeg);
+}
+
+section#headerdef {
+    text-align: center;
+    padding: 1em;
+}
+
+
+/* Nav Styles */
+.navbar {
+    overflow: auto;
+    background-color: rgb(78,113,48);
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    font-size: 22px;
+    color: rgb(252,251,249);
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    width: 17.53%;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn{
+    background-color: rgb(55, 80, 34);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(55, 80, 34);
+    min-width: 17.53%;
+    float: left;
+}
+
+.dropdown-content a {
+    float: none;
+    color: rgb(252,251,249);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Main Body */
+article {
+    padding: 20px;
+    margin: 20px;
+    font-size: 25px;
+    line-height: 1.5em;
+}
+
+aside {
+    color: rgb(136,81,50);
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid rgb(78,113,48);
+    border-radius: 10px;
+    line-height: 1.6em;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Josefin Sans Bold';
+}
+
+h3 {
+    font-family: 'Josefin Sans Bold';
+}
+
+section.wc {
+    font-size: 14px;
+    line-height: 1.8em;
+    margin: 22px;
+    width: 80%;
+}
+
+img {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+   
+}
+
+
+img.diypics {
+    display: block;
+    float: left;
+   width: 300px;
+   height: 300px;
+   background-position: center center;
+   background-repeat: no-repeat;
+    
+}
+
+
