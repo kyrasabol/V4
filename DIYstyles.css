@@ -1,0 +1,77 @@
+@charset "utf-8";
+@font-face{
+    font-family: 'Josefin Sans';
+    src: url('JosefinSans-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Josefin Sans Bold';
+    src: url('JosefinSans-SemiBold.ttf') format('truetype');
+}
+
+/* 
+    Easy & Eco-friendly
+
+    Author: Kyra Sabol
+    Date created: May 17, 2021
+
+    Filename: diystyles.css
+
+    Color set: 
+        Beige: rgb(201,181,144)
+        Clay brown: rgb(136,81,50)
+        White: rgb(252,251,249)
+        Dark green: rgb(78,113,48)
+        Light green: rgb(149,178,80)
+*/
+
+
+/* Table Styles */
+
+table.diytable {
+    border: 2px solid rgba(195,167,140,255);
+    font-size: 22px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+table.diytable th, table.diytable td {
+    border: 1px solid rgba(195,167,140,255);
+    padding: 10px;
+    text-align: center;
+}
+
+table.diytable thead {
+    background: rgb(136,81,50);
+    color: rgba(252,251,249,255);
+}
+
+col#firstcol {
+    width: 20%
+}
+
+col.restcol {
+    width: 16%;
+}
+
+table.diytable thead tr {
+    height: 40px;
+}
+
+table.diytable tbody tr {
+    height: 50px;
+}
+
+/* MISC */
+
+img {
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    padding-top: 2em;
+}
+
